@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="logoline">
+            <div id="solar">
+                <div class="bar1"></div>
+                <div class="bar1"></div>
+                <div class="bar1"></div>
+            </div>
+            <div id="logo">RemTech</div>
+        </div>
+        <div id="display"></div>
+        <div id="model">FX-980 CTK</div>
+        <div id="rowhead">
+            <button id="clear" class="c">C</button>
+            <button id="brktop" class="r1" value="(">(</button>
+            <button id="brktcl" class="r1" value=")">)</button>
+            <button id="exp" class="col4" value="e">exp</button>
+            <button id="backspace" class="bckspc">←</button>
+        </div>
+        <div id="row1">
+            <button id="7" class="r1" value="7">7</button>
+            <button id="8" class="r1" value="8">8</button>
+            <button id="9" class="r1" value="9">9</button>
+            <button id="/" class="col4" value="/">÷</button>
+            <button id="pi" class="col4" value="3.14159265359">π</button> 
+        </div>
+        <div id="row2">
+            <button id="4" class="r1" value="4">4</button>
+            <button id="5" class="r1" value="5">5</button>
+            <button id="6" class="r1" value="6">6</button>
+            <button id="*" class="col4" value="*">x</button>
+            <button id="sqrt" class="col4">√a</button>  
+        </div>
+        <div id="row3">
+            <button id="1" class="r1" value="1">1</button>
+            <button id="2" class="r1" value="2">2</button>
+            <button id="3" class="r1" value="3">3</button>
+            <button id="-" class="col4" value="-">-</button>
+            <div id="space"><button id="=" class="alpha">=</button></div>
+        </div>
+        <div id="row4">
+            <button id="0" class="r1" value="0">0</button>
+            <button id="d0" class="r1" value="00">00</button>
+            <button id="+" class="r1" value="+">+</button>
+            <button id="." class="col4" value=".">.</button> 
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
